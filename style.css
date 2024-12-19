@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Estilos de la sección "Cómo funciona" */
+.como-funciona {
+    padding: 40px 0;
+}
+
+.como-funciona .bloque {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos de la sección "Beneficios" */
+.beneficios {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.beneficios .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.beneficios .item {
+    width: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos de la sección "Precios" */
+.precios {
+    padding: 40px 0;
+}
+
+.precios table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.precios th, .precios td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos de la sección "Testimonios" */
+.testimonios {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+/* Estilos de la sección "Garantía" */
+.garantia {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Estilos de la sección "Contacto" */
+.contacto {
+    padding: 40px 0;
+}
+
+/* Estilos de los formularios */
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
